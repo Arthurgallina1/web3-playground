@@ -15,7 +15,6 @@ const Home: NextPage = () => {
       // const fallback = new FallbackProvider(providers, 1)
       const provider = await ethers.getDefaultProvider()
       // const promise = fallback.getBlockNumber()
-      // await promise // Hangs
       console.log('provider', provider)
     }
 
