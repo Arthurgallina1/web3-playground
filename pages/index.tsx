@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       // const fallback = new FallbackProvider(providers, 1)
       const provider = await ethers.getDefaultProvider()
       // const promise = fallback.getBlockNumber()
-      console.log('provider', provider)
+      console.log('provide123r', provider)
     }
 
     getEthers()
